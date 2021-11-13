@@ -2,5 +2,5 @@ discord=C:\Users\sncs\AppData\Local\Discord\app-1.0.9003\Discord.exe
 bnha 2 heros=D:\Anime\movies\bnha 2 heros.mp4
 calculator=C:\Users\sncs\Desktop\Python\Calculator.py
 demon slayer mugen train=D:\Anime\movies\Demon Slayer Mugen Train.mp4
-name=Mani
+name=Nihal
 settings=C:\Windows\System32\DpiScaling.exe
