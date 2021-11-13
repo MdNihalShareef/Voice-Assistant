@@ -12,5 +12,6 @@
 ### Installation of pyaudio won't work in some system, so follow the given stpes to install
 1. Go to https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio and downlaod any package extention for pyaudio
 2. open cmd and go to the path where the above file is downlaoded
-3. run the command - pip install whlfile_name<br>
+3. run the command - pip install whlfile_name
+<br>
 Eg: pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl
