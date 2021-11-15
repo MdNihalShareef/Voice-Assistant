@@ -59,7 +59,7 @@ def getCommand():
 
 
 def executCommand(cmd):
-	print(cmd)
+	print("Command",cmd)
 	if cmd==None:
 		return
 	
