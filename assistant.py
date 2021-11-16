@@ -77,7 +77,7 @@ def executCommand(cmd):
 		speak("You are "+dic["name"][:-1])
 	
 	
-	elif "change" in cmd and "name" in cmd:
+	elif "change" in cmd and "name" in cmd and "my" in cmd:
 		speak("Please enter your name")
 		dic["name"]=input("Enter you name ")+"\n"
 		with open("paths.txt","w") as file:
