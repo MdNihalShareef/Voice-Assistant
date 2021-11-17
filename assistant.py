@@ -43,7 +43,7 @@ if "name" not in dic:
 		file.write("name="+dic["name"])
 
 
-speak("Hello {}, Sam here, How can i Help you".format(dic["name"][:-1]))
+speak("Hello {}, Robin here, How can i Help you".format(dic["name"][:-1]))
 
 
 def getCommand():
@@ -71,19 +71,17 @@ def executCommand(cmd):
 		speak("todays date is "+str(today.day)+" "+month[today.month-1]+" "+str(today.year))
 	
 	elif "what is your name" in cmd:
-		speak("Iam Sam")
+		speak("Iam Robin")
 
-	elif "my name" in cmd:
-		speak("You are "+dic["name"][:-1])
-	
-	
 	elif "change" in cmd and "name" in cmd and "my" in cmd:
 		speak("Please enter your name")
 		dic["name"]=input("Enter you name ")+"\n"
 		with open("paths.txt","w") as file:
 			for i in dic:
 				file.write(i+"="+dic[i])
-			
+	elif "my name" in cmd:
+		speak("You are "+dic["name"][:-1])
+		
 	
 	elif "change" in cmd and ("path" in cmd or "settings" in cmd):
 		speak("Enter the application name ")
