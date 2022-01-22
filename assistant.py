@@ -168,9 +168,5 @@ else:
 	k="User : "+l[1]+" Password: "+l[2]+" Tried to access the assistant"
 	msg = MIMEText(k, 'plain', 'utf-8')
 	server.sendmail("amaansmd1", "nihalshareef782@gmail.com",msg.as_string())
-	# print(type(msg))
 	print(type(msg.as_string()))
-	# print(type(k))
-	# print(type("srerg"))
-	# print(msg.as_string()==k)
 	exit(0)
